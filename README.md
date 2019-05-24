@@ -16,3 +16,17 @@ This script will generate model checkpoints as ".hdf5" files and training logs w
 After that manual_test.py allows to perform some tests on trained gensim and NN models.
 
 All mentioned scripts allows to modify some program parameters from terminal by using argparse python library.
+
+## Training logs:
+
+### Accuracy:
+![train_acc](img/train_acc.png)
+
+### Loss:
+![train_loss](img/train_loss.png)
+
+### Validation accuracy:
+![val_acc](img/val_acc.png)
+
+### Validation loss:
+![val_loss](img/val_loss.png)
